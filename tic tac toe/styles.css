@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right, #f5af19, #f12711);
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.score {
+  margin: 0 20px;
+  font-size: 1.5rem;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 10px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.cell.x::before {
+  content: "X";
+  color: #f12711;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cell.o::before {
+  content: "O";
+  color: #f5af19;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cell:hover {
+  transform: scale(1.1);
+  background-color: #f0e68c;
+}
+
+.winning-message {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  animation: pop-in 0.5s ease;
+}
+
+@keyframes pop-in {
+  0% {
+      transform: translate(-50%, -50%) scale(0);
+      opacity: 0;
+  }
+  100% {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 1;
+  }
+}
+
+.winning-message.show {
+  display: flex;
+}
+
+.winning-message div {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #ff4b2b;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background: #e43f1e;
+  transform: scale(1.05);
+}
