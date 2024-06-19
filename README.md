@@ -5,17 +5,9 @@ This repository contains a collection of mini to intermediate-level JavaScript p
 Each project folder contains the necessary files (HTML, CSS, and JavaScript) to run the application, along with a brief description of the project's functionality and the JavaScript concepts covered.
 
 ## Projects
-
-1. **Project 1**: A simple calculator application that performs basic arithmetic operations.
-2. **Project 2**: A todo list app that allows you to add, remove, and mark tasks as complete.
-3. **Project 3**: A weather app that fetches current weather data for a given location using an API.
-4. **Project 4**: A game of tic-tac-toe with a opponent.
-5. **Project 5**: A countdown timer with start, pause, and reset functionality.
-6. **Project 6**: A form validation application that checks user input using regular expressions.
-7. **Project 7**: A shopping cart application that simulates an e-commerce experience.
-8. **Project 8**: A simple image slider with navigation controls.
-9. **Project 9**: A dynamic quiz application that fetches questions from an API.
-10. **Project 10**: A rock-paper-scissors game against the computer.
+1. **Project 1**: A game of tic-tac-toe with a opponent.
+2. **Project 2**: A Pig-Game where Players take turns to roll a single die as many times as they wish, adding all roll results to a running total, but losing their gained score for the turn if they roll a 1.
+2. **Project 3**: A rock-paper-scissors game against the computer.
 
 ## Getting Started
 
