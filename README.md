@@ -7,7 +7,8 @@ Each project folder contains the necessary files (HTML, CSS, and JavaScript) to 
 ## Projects
 1. **Project 1**: A game of tic-tac-toe with a opponent.
 2. **Project 2**: A Pig-Game where Players take turns to roll a single die as many times as they wish, adding all roll results to a running total, but losing their gained score for the turn if they roll a 1.
-2. **Project 3**: A rock-paper-scissors game against the computer.
+3. **Project 3**: A Symbol Guessing game before the time runsout.
+3. **Project 3**: A Number Guessing game against the computer.
 
 ## Getting Started
 
