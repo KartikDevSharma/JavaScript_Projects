@@ -1,0 +1,180 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    overflow: hidden;
+    color: #00ff00;
+}
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+.stars, .twinkling, .clouds {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    height:100%;
+    display:block;
+}
+
+.stars {
+    background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+    z-index:-3;
+}
+
+.twinkling{
+    background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+    z-index:-2;
+    animation:move-twink-back 200s linear infinite;
+}
+
+.clouds{
+    background:transparent url(http://www.script-tutorials.com/demos/360/images/clouds.png) repeat top center;
+    z-index:-1;
+    opacity: .4;
+    animation:move-twink-back 200s linear infinite;
+}
+
+.game-container {
+    position: relative;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 0 20px #00ff00;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #00ff00;
+}
+
+#level-display, #timer, #score {
+    font-size: 1.2em;
+    margin: 10px 0;
+    text-shadow: 0 0 5px #00ff00;
+}
+
+#code-sequence {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.code-symbol {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    background-color: rgba(0, 255, 0, 0.2);
+    border: 2px solid #00ff00;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #00ff00;
+    text-shadow: 0 0 5px #00ff00;
+    box-shadow: 0 0 10px #00ff00;
+}
+
+#symbol-grid {
+    
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.symbol {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 255, 255, 0.2);
+    border: 2px solid #00ffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #00ffff;
+    text-shadow: 0 0 5px #00ffff;
+}
+
+.symbol:hover {
+    background-color: rgba(0, 255, 255, 0.5);
+    box-shadow: 0 0 15px #00ffff;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 1.2em;
+    min-height: 1.5em;
+    text-shadow: 0 0 5px #ff00ff;
+}
+
+#start-button, #close-intro {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: rgba(0, 255, 0, 0.3);
+    color: #00ff00;
+    border: 2px solid #00ff00;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#start-button:hover, #close-intro:hover {
+    background-color: rgba(0, 255, 0, 0.5);
+    box-shadow: 0 0 15px #00ff00;
+}
+
+.modal {
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 30px;
+    border: 2px solid #00ff00;
+    border-radius: 15px;
+    max-width: 600px;
+    color: #00ff00;
+    text-shadow: 0 0 5px #00ff00;
+    box-shadow: 0 0 20px #00ff00;
+}
+
+.modal-content h2, .modal-content h3 {
+    margin-bottom: 15px;
+}
+
+.modal-content ol {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.modal-content li {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galactic Code Breaker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    <div class="clouds"></div>
+    
+    <div class="game-container">
+        <h1>Galactic Code Breaker</h1>
+        <div id="level-display">Level: <span id="level">1</span></div>
+        <div id="timer">Time: <span id="time">60</span>s</div>
+        <div id="score">Score: <span id="points">0</span></div>
+        
+        <div id="code-sequence"></div>
+        <div id="symbol-grid"></div>
+        
+        <div id="message"></div>
+        <button id="start-button">Start Mission</button>
+    </div>
+
+    <div id="intro-modal" class="modal">
+        <div class="modal-content">
+            <h2>Welcome, Space Cadet!</h2>
+            <p>Your mission, should you choose to accept it, is to decipher alien codes and save the galaxy!</p>
+            <h3>How to Play:</h3>
+            <ol>
+                <li>Memorize the sequence of alien symbols shown.</li>
+                <li>The symbols will be hidden after a brief moment.</li>
+                <li>Recreate the sequence by clicking on the symbols below.</li>
+                <li>Complete the sequence before time runs out!</li>
+                <li>With each level, the code gets longer and time shorter.</li>
+            </ol>
+            <p>Are you ready to become the ultimate Galactic Code Breaker?</p>
+            <button id="close-intro">Begin Mission</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
