@@ -50,7 +50,7 @@ You can easily customize the game by modifying the following:
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome. Feel free to check [issues page](link-to-your-issues-page) if you want to contribute.
+Contributions, issues, and feature requests are welcome.
 
 ## License
 
