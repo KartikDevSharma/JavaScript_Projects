@@ -5,10 +5,11 @@ This repository contains a collection of mini to intermediate-level JavaScript p
 Each project folder contains the necessary files (HTML, CSS, and JavaScript) to run the application, along with a brief description of the project's functionality and the JavaScript concepts covered.
 
 ## Projects
-1. **Project 1**: A game of tic-tac-toe with a opponent.
-2. **Project 2**: A Pig-Game where Players take turns to roll a single die as many times as they wish, adding all roll results to a running total, but losing their gained score for the turn if they roll a 1.
-3. **Project 3**: A Symbol Guessing game before the time runsout.
-3. **Project 3**: A Number Guessing game against the computer.
+1. **Project 1**: Tic-Tac-Toe
+2. **Project 2**: Pig_game
+3. **Project 3**: Galactic_Code_Breaker
+3. **Project 4**: Guess_The_Number
+4. **Project 4**: Banking_Website
 
 ## Getting Started
 
