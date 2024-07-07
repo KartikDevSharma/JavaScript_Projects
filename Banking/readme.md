@@ -1,5 +1,5 @@
 
-```markdown
+
 # Bankist
 
 Bankist is a modern and minimalist banking website interface. It's designed to showcase various JavaScript features and provide a sleek user experience.
@@ -27,7 +27,7 @@ To run this project locally:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/bankist.git
+   git clone https://github.com/KartikDevSharma/JavaScript_Projects/Banking.git
    ```
 2. Navigate to the project directory:
    ```
@@ -66,5 +66,4 @@ This project was created as part of a JavaScript course. Design and initial code
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
-```
-.
+
