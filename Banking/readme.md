@@ -31,7 +31,7 @@ To run this project locally:
    ```
 2. Navigate to the project directory:
    ```
-   cd bankist
+   cd JavaScript_Projects/Banking
    ```
 3. Open `index.html` in your browser.
 
