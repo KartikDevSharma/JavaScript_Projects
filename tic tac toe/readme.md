@@ -48,9 +48,6 @@ Feel free to modify the CSS in `styles.css` to change colors, fonts, or add your
 
 Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/KartikDevSharma/JavaScript_Projects/issues).
 
-## 📝 License
-
-[Add your chosen license here]
 
 ## 👨‍💻 Author
 
