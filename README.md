@@ -9,7 +9,7 @@ Each project folder contains the necessary files (HTML, CSS, and JavaScript) to 
 2. **Project 2**: Pig_game
 3. **Project 3**: Galactic_Code_Breaker
 3. **Project 4**: Guess_The_Number
-4. **Project 4**: Banking_Website
+4. **Project 5**: Banking_Website
 
 ## Getting Started
 
