@@ -28,7 +28,7 @@ A simple and fun number guessing game built with HTML, CSS, and JavaScript.
 
 1. Clone the repository:
    ```
-   git clone https://github.com//KartikDevSharma/JavaScript_Projects/GuessTheNumber.git
+   git clone https:/github.com//KartikDevSharma/JavaScript_Projects/GuessTheNumber.git
    ```
 2. Navigate to the project directory:
    ```
