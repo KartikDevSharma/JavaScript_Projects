@@ -1,3 +1,5 @@
+<img align="center"  width="100%" src="https://github.com/KartikDevSharma/KartikDevSharma/blob/main/Files/12345.gif"  />
+
 # JavaScript_Projects
 
 This repository contains a collection of mini to intermediate-level JavaScript projects that I built while learning and practicing JavaScript. These projects cover a wide range of topics and concepts, from basic syntax and data structures to more advanced techniques like DOM manipulation, asynchronous programming, and APIs.
