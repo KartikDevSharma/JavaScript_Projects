@@ -7,12 +7,36 @@ This repository contains a collection of mini to intermediate-level JavaScript p
 Each project folder contains the necessary files (HTML, CSS, and JavaScript) to run the application, along with a brief description of the project's functionality and the JavaScript concepts covered.
 
 ## Projects
-1. **Project 1**: Tic-Tac-Toe
-2. **Project 2**: Pig_game
-3. **Project 3**: Galactic_Code_Breaker
-3. **Project 4**: Guess_The_Number
-4. **Project 5**: Banking_Website
 
+1. **Tic-Tac-Toe**: A classic two-player game implemented with JavaScript.
+
+2. **Pig_game**: A dice game where players compete to reach 100 points.
+   - [View Project](https://github.com/KartikDevSharma/JavaScript_Projects/tree/main/Pig_game)
+
+3. **Galactic_Code_Breaker**: A space-themed code-breaking game.
+
+4. **Guess_The_Number**: A number guessing game where the player tries to guess a randomly generated number.
+   - [View Project](https://github.com/KartikDevSharma/JavaScript_Projects/tree/main/Guess_The_Number)
+
+5. **Banking_Website**: A simulated online banking interface.
+   - [View Project](https://github.com/KartikDevSharma/JavaScript_Projects/tree/main/Banking)
+
+## Skills Demonstrated
+
+- DOM Manipulation
+- Event Handling
+- Array Methods
+- Local Storage
+- Game Logic Implementation
+- Responsive Design
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- Git & GitHub
+  
 ## Getting Started
 
 To run any of the projects, simply navigate to the project's directory and open the `index.html` file in a web browser. Some projects may require additional setup or dependencies, which will be detailed in the project's README file.
