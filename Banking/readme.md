@@ -3,6 +3,10 @@
 # Bankist
 
 Bankist is a modern and minimalist banking website interface. It's designed to showcase various JavaScript features and provide a sleek user experience.
+## Demo
+<p align="center">
+  <img src="https://github.com/KartikDevSharma/KartikDevSharma/blob/main/Files/Banking_web%20(1).gif" alt="Bankist Demo">
+</p>
 
 ## Features
 
