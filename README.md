@@ -6,19 +6,21 @@ This repository contains a collection of mini to intermediate-level JavaScript p
 
 Each project folder contains the necessary files (HTML, CSS, and JavaScript) to run the application, along with a brief description of the project's functionality and the JavaScript concepts covered.
 
-## Projects
+## Projects 
 
 1. **Tic-Tac-Toe**: A classic two-player game implemented with JavaScript.
-
+   - [View Project](https://github.com/KartikDevSharma/JavaScript_Projects/tree/main/tic%20tac%20toe)
+     
 2. **Pig_game**: A dice game where players compete to reach 100 points.
-   - [View Project](https://github.com/KartikDevSharma/JavaScript_Projects/tree/main/Pig_game)
+   - [View Project](https://github.com/KartikDevSharma/JavaScript_Projects/tree/main/Pig-Game)
 
 3. **Galactic_Code_Breaker**: A space-themed code-breaking game.
+   - [View Project](https://github.com/KartikDevSharma/JavaScript_Projects/tree/main/GalacticCodeBreaker)
 
-4. **Guess_The_Number**: A number guessing game where the player tries to guess a randomly generated number.
-   - [View Project](https://github.com/KartikDevSharma/JavaScript_Projects/tree/main/Guess_The_Number)
+5. **Guess_The_Number**: A number guessing game where the player tries to guess a randomly generated number.
+   - [View Project](https://github.com/KartikDevSharma/JavaScript_Projects/tree/main/GuessTheNumber)
 
-5. **Banking_Website**: A simulated online banking interface.
+6. **Banking_Website**: A simulated online banking interface.
    - [View Project](https://github.com/KartikDevSharma/JavaScript_Projects/tree/main/Banking)
 
 ## Skills Demonstrated
