@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Layered Encryption Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔒 Multi-Layered Encryption Tool 🔒</h1>
+        
+        <div class="cipher-section">
+            <h2>🔐 Encryption</h2>
+            <textarea id="plaintext" placeholder="Enter your text to encrypt..."></textarea>
+            <input type="text" id="vigenere-key" placeholder="Vigenère Keyword (e.g., SECRET)">
+            <button id="encrypt-btn">Encrypt ✨</button>
+            <div class="output-container">
+                <textarea id="ciphertext" placeholder="Encrypted text will appear here..." readonly></textarea>
+                <button class="copy-btn" data-target="ciphertext">Copy 🔗</button>
+            </div>
+        </div>
+
+        <div class="cipher-section">
+            <h2>🔓 Decryption</h2>
+            <textarea id="ciphertext-decrypt" placeholder="Enter your text to decrypt..."></textarea>
+            <input type="text" id="vigenere-key-decrypt" placeholder="Vigenère Keyword (e.g., SECRET)">
+            <button id="decrypt-btn">Decrypt 🛠️</button>
+            <div class="output-container">
+                <textarea id="decrypted-text" placeholder="Decrypted text will appear here..." readonly></textarea>
+                <button class="copy-btn" data-target="decrypted-text">Copy 🔗</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
